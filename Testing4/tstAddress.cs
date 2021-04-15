@@ -5,15 +5,15 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace Testing4
 {
     [TestClass]
-    public class tstOrder
+    public class tstAddress
     {
         [TestMethod]
         public void InstanceOK()
         {
             //create an instance of the class we want to create we want to create
-            clsOrder AnOrder = new clsOrder();
+            clsAddress AnAddress = new clsAddress();
             //test to see that it exists
-            Assert.IsNotNull(AnOrder);
+            Assert.IsNotNull(AnAddress);
         }
     }
 }
